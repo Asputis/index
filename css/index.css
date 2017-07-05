@@ -1,0 +1,361 @@
+*{
+    padding:0;
+    margin:0;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+.container
+{
+    width:100%;
+    height:100%;
+    position:relative;
+    overflow:hidden;
+}
+.yincang{
+    display:none;
+}
+.xianshi{
+    display:block;
+}
+.container>div{
+    width:3.2rem;
+    height:5.61rem;
+    overflow:hidden;
+    position:absolute;
+    top:0;
+    left:0;
+}
+#f0{
+    position: fixed;
+    width: .28rem;
+    height: .28rem;
+    right: .2rem;
+    top: .2rem;
+    z-index: 99;
+    animation: xuanzhuan 2s infinite;
+}
+audio{
+    display: none;
+    height: 0;
+    width: 0;
+}
+
+/*第一页*/
+        .yi {
+            width: 100%;
+            height: 100%;
+            
+        }
+        .yi .nei {
+            width: 100%;
+            height: 100%;
+            /*border: 0.07rem solid white;*/
+            background-image:url(../images/beijing.jpg) ;
+            position: relative;
+            overflow: hidden;
+        }
+        .f1{
+            width: 3rem;
+            height: 3rem;
+            position:absolute;
+            top: 0.5rem;
+            left: 0;
+        }
+      .f2{
+          width: 1.12rem;
+          height:1.17rem;
+          position: absolute;
+          left: 0;
+          bottom: 0;
+      }
+      .nei H1{
+          font: .5rem 新宋体 ;
+          position: absolute;
+          left: .5rem;
+          top: 50%;
+      }
+  /*第二页*/
+       .er{
+           width: 100%;
+           height: 5.68rem;
+       }
+       .er .swiper-container {
+           width: 100%;
+           height: 100%;
+            overflow: hidden;
+            border: 0.07rem solid white;
+        }
+
+        .er .swiper-wrapper {
+            width: 3.06rem;
+            height: 100%;  
+        }
+
+        .er .swiper-slide {
+            width: 3.06rem;
+            height: 100%;
+            float: left;   
+        }
+        .er .swiper-slide div {
+            width: 3.06rem;
+            height:100%;
+            background-image:url(../images/beijing.jpg) ;
+            position:relative;
+        }
+.f3{
+    width: 3rem;
+    height: 3rem;
+    position:absolute;
+    top: 0.5rem;
+    left: 0;
+}
+        .er H2{
+            font: .5rem 新宋体 ;
+            position: absolute;
+            left: .3rem;
+            top: 50%;
+        }
+        .f4{
+            width: 3rem;
+            height: 3rem;
+            position:absolute;
+            bottom: 0;
+            right: 0;
+        }
+        .er .tap {
+            display: block;
+            width: 2.22rem;
+            height: 0.37rem;
+        }
+
+        .er .tap img {
+                width: 2.22rem;
+                height: 0.37rem;
+                position: absolute;
+                top: 4.28rem;
+                left: 0.42rem;
+         }
+
+
+
+        /*第三页*/
+        .san {
+            width: 3.2rem;
+            height: 5.54rem;
+        }
+
+        .san .swiper-container {
+            width: 3.06rem;
+            height: 5.54rem;
+            overflow: hidden;
+            border: 0.07rem solid white;
+        }
+
+        .san .swiper-wrapper {
+            width: 3.06rem;
+            height: 100%;
+        }
+
+        .san .swiper-slide {
+            width: 3.06rem;
+            height: 100%;
+            float: left;
+        }
+
+            .san .swiper-slide div {
+                width: 3.06rem;
+                height: 100%;
+                background-image:url(../images/beijing.jpg) ;
+                position: relative;
+            }
+            .f5 H1{
+                font-size: .24rem;
+                color:#ff6700;
+            }
+            .f5 p{
+                font-size: .16rem;
+                padding: .2rem 0;
+                color: red;
+            }
+
+            .f6{
+                width: 1.12rem;
+                height: 1.17rem;
+                position: absolute;
+                right: 0;
+                bottom: 0.5rem;
+            }
+        .san .tap {
+            display: block;
+            width: 2.22rem;
+            height: 0.37rem;
+        }
+
+
+
+       /*第四页*/
+       .si {
+            width: 3.2rem;
+            height: 5.54rem;
+        }
+
+            .si .swiper-container {
+                width: 3.06rem;
+                height: 5.54rem;
+                overflow: hidden;
+                border: 0.07rem solid white;
+            }
+
+            .si .swiper-wrapper {
+                width: 3.06rem;
+                height: 100%;
+            }
+
+            .si .swiper-slide {
+                width: 3.06rem;
+                height: 100%;
+                float: left;
+            }
+
+                .si .swiper-slide div {
+                    width: 3.06rem;
+                    height: 100%;
+                    background-image:url(../images/beijing.jpg) ;
+                    position: relative;
+                }
+.f7 H1{
+    font-size: .24rem;
+    color:#ff6700;
+    position: absolute;
+    left: 1rem;
+    top: 0;
+}
+.f7 p{
+    font-size: .16rem;
+    padding: .8rem 0;
+    color: red;
+    position: absolute;
+    left: .2rem;
+}
+.f8{
+    width: 3.1rem;
+    height: 3.2rem;
+    position: absolute;
+    top: 30%;
+    left: 0;
+}
+            .si .img1 {
+                width: 1.38rem;
+                height: 1.02rem;
+                position: absolute;
+                top: 0.11rem;
+                left: 0.82rem;
+            }
+
+            .si .img2 {
+                width: 2.26rem;
+                height: 1.58rem;
+                position: absolute;
+                top: 1.8rem;
+                left: 0.42rem;
+                z-index: 1;
+            }
+
+            .si .img3 {
+                width: 1.96rem;
+                height: 1.96rem;
+                position: absolute;
+                top: 1.52rem;
+                left: 0.55rem;
+            }
+
+            .si .img4 {
+                width: 1.37rem;
+                height:1.8rem;
+                position: absolute;
+                top: 1.55rem;
+                left: 0.85rem;
+            }
+
+            .si .img5 {
+                width: 1.22rem;
+                height: 0.14rem;
+                position: absolute;
+                bottom: 0.84rem;
+                left: 0.92rem;
+            }
+
+        .lastimg {
+            width: 0.23rem;
+            height: 0.13rem;
+            position: absolute;
+            bottom: 0.19rem;
+            left: 1.42rem;
+        }
+
+        .si .img6 {
+            width: 2.5rem;
+            height: 3.02rem;
+            position: absolute;
+            top: 0.28rem;
+            left: 0.29rem;
+        }
+
+        .si .tap {
+            display: block;
+            width: 2.22rem;
+            height: 0.37rem;
+        }
+
+        .si .tap img {
+                width: 2.22rem;
+                height: 0.37rem;
+                position: absolute;
+                top: 4.28rem;
+                left: 0.42rem;
+            }
+
+
+
+        /*第五页*/
+        .wu {
+            width: 3.2rem;
+            height: 5.54rem;
+        }
+
+        .wu .nei {
+            width: 3.06rem;
+            height: 5.54rem;
+            border: 0.07rem solid white;
+            background-image:url(../images/disishuimo.jpg) ;
+            position: relative;
+            overflow: hidden;
+        }
+       #f9 H1{
+           font-size: .24rem;
+           position: absolute;
+           left: 1rem;
+           top: 0;
+       }
+       #f9 p{
+           font-size: .16rem;
+           position: absolute;
+           left: 0;
+           top: 50%;
+       }
+        .wu .tap {
+            display: block;
+            width: 2.22rem;
+            height: 0.37rem;
+            position: absolute;
+            top: 3.28rem;
+            left: 0.42rem;
+        }
+
+        .wu .tap img {
+            width: 2.22rem;
+            height: 0.37rem;
+                
+        }

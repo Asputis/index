@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <script type="text/javascript" src="js/fontsize.js"></script>
+    <title></title>
+    <link href="css/swiper.min.css" rel="stylesheet" type="text/css">
+    <link href="css/index.css" type="text/css" rel="stylesheet" />
+    <link href="css/animation.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<audio controls autoplay="autoplay">
+    <source src="" type="audio/ogg" />
+    <source src="images/群星%20-%20星语心愿.mp3" type="audio/mpeg" />
+</audio>
+<img src="images/xiaolaba.svg" id="f0">
+<!---->
+    <div class="container">
+        <div class="yi">
+            <div class="nei">
+                <img src="images/shuimo.png" alt="" class="f1"/>
+                <img src="images/yinzhang.png" alt="" class="f2"/>
+                <h1>个人简介</h1>
+            </div>
+        </div>
+        <!-- -->
+        <div class="er down">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div>
+                            <img src="images/shuimo.png" alt="" class="f3"/>
+                            <H2>小生：樊帅</H2>
+                            <img src="images/twobeij.png" alt="" class="f4">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination swiper-pagination-white"></div>
+            </div>
+
+        </div>
+        <!-- -->
+        <div class="san down">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="f5">
+                            <h1>姓名：樊帅</h1>
+                            <p>
+                                来自张家口蔚县，一个美丽而古老的城镇。
+                            </p>
+                            <h1>兴趣</h1>
+                            <p>
+                                喜欢关于物理电脑知识。
+                            </p>
+                            <h1>爱好</h1>
+                            <p>
+                                打游戏，看科幻电影，下象棋
+                            </p>
+                            <h1>特长</h1>
+                            <p>
+                                快速了解一件事物
+                            </p>
+                            <img src="images/yinzhang.png" alt="" class="f6"/>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination swiper-pagination-white"></div>
+            </div>
+
+
+        </div>
+        <!-- -->
+        <div class="si down">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="f7">
+                            <h1>座右铭</h1>
+                            <p>创新使人进步，腐朽使人落后</p>
+                            <img src="images/disishuimo.jpg" alt=""class="f8"/>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination swiper-pagination-white"></div>
+            </div>
+        </div>
+        <!-- -->
+        <div class="wu down">
+            <div class="nei" id="f9">
+                <H1>结语</H1>
+                <p>祝福老师同学们身体健康万事如意，期末考试不挂科0.0</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="js/swiper.min.js"></script>
+<script type="text/javascript" src="js/zepto.min.js"></script>
+<script type="text/javascript" src="js/touch.js"></script>
+<script>
+    var swipe = 0;
+    $(".container").swipeUp(function () {
+        if (swipe < 4) {
+            $(".container>div").eq(swipe).addClass("up");
+            $(".container>div").eq(swipe).children().addClass("yincang");
+            swipe++;
+            $(".container>div").eq(swipe).children().removeClass("yincang");
+            $(".container>div").eq(swipe).removeClass("down");
+        }
+    })
+    //向上滑动
+    $(".container").swipeDown(function () {
+        if (swipe > 0) {
+            $(".container>div").eq(swipe).addClass("down");
+            $(".container>div").eq(swipe).children().addClass("yincang");
+            swipe--;
+            $(".container>div").eq(swipe).children().removeClass("yincang");
+            $(".container>div").eq(swipe).removeClass("up");
+        }
+    })
+    //向下滑动
+
+</script>
+</html>

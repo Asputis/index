@@ -1,0 +1,164 @@
+﻿/*所需动画*/
+.up {
+    transform: translateY(-100%);
+}
+.down{
+    transform:translateY(100%);
+}
+.transition-1{
+    transition:transform 0.5s linear;
+}
+
+@keyframes xuanzhuan {
+    0%{
+
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+/*第一页动画*/
+.f1{
+
+    animation:bot 0.5s linear;
+}
+@keyframes bot{
+    0%{transform:translateX(-1.5rem);}
+    100%{transform:translateX(0rem);}
+}
+.yi .img2{
+    animation:lef 0.5s linear;
+}
+@keyframes lef{
+    0%{transform:translateX(-1rem);}
+    100%{transform:translateX(0rem);}
+}
+
+
+/*第二页动画*/
+.f3
+{
+    animation:slide 0.5s linear;
+}
+@keyframes slide{
+    0%{transform:translateX(-1.5rem);}
+    100%{transform:translateX(0rem);}
+}
+.f4{
+    animation:circle 3s  ease;
+}
+@keyframes circle
+{
+    0%{transform:translateX(-3rem);}
+    100%{transform:translateX(0rem);}
+}
+
+
+
+/*第三页动画*/
+.san .img1
+{
+    animation:slide 0.5s 5s linear;
+}
+@keyframes slide{
+    0%{transform:translateY(-1rem);}
+    100%{transform:translateY(0rem);}
+}
+.san .img3{
+    animation:circle 0.5s 5s linear;
+}
+@keyframes circle
+{
+    0%{transform:translateY(-2rem);}
+    30%{transform:translateY(0.6rem);}
+    60%{transform:translateY(-0.3rem);}
+    100%{transform:translateY(0rem);}
+}
+.san .img4{
+    animation:run 0.5s 5s linear;
+}
+@keyframes run{
+    0%{transform:translateX(-1rem);}
+    100%{transform:translateX(0rem);}
+}
+.lastimg{
+    animation:jian 1s linear infinite;
+}
+@keyframes jian{
+    0%{transform:translateY(-0.6rem);}
+    0%{transform:translateY(0rem);}
+    0%{transform:translateY(-0.2rem);}
+    0%{transform:translateY(-0.3rem);}
+}
+.san .img6,.san .tap{
+    animation:zhuan 0.5s 6.5s linear;
+}
+@keyframes zhuan{
+    0%{transform:rotateY(-90deg);}
+    100%{transform:rotateY(0deg);}
+}
+
+
+/*第四页动画*/
+.si .img1
+{
+    animation:slide 0.5s 8s linear;
+}
+@keyframes slide{
+    0%{transform:translateY(-1rem);}
+    100%{transform:translateY(0rem);}
+}
+.si .img3{
+    animation:circle 0.5s 8s linear;
+}
+@keyframes circle
+{
+    0%{transform:translateY(-2rem);}
+    30%{transform:translateY(0.6rem);}
+    60%{transform:translateY(-0.3rem);}
+    100%{transform:translateY(0rem);}
+}
+.si .img4{
+    animation:run 0.5s 8s linear;
+}
+@keyframes run{
+    0%{transform:translateX(-1rem);}
+    100%{transform:translateX(0rem);}
+}
+.lastimg{
+    animation:jian 1s linear infinite;
+}
+@keyframes jian{
+    0%{transform:translateY(-0.6rem);}
+    0%{transform:translateY(0rem);}
+    0%{transform:translateY(-0.2rem);}
+    0%{transform:translateY(-0.3rem);}
+}
+.si .img6,.si .tap{
+    animation:zhuan 0.5s 9.5s linear;
+}
+@keyframes zhuan{
+    0%{transform:rotateY(-90deg);}
+    100%{transform:rotateY(0deg);}
+}
+
+
+
+/*第五页动画*/
+#f9 p {
+    animation:fu 1s 11s linear;
+}
+@keyframes fu{
+    0%{transform:rotateX(-90deg);}
+    100%{transform:rotateX(0deg);}
+}
+.wu .tap
+{
+    animation:zheng 1s 11s linear;
+}
+@keyframes zheng{
+    0%{transform:rotateX(360deg);}
+    100%{transform:rotateX(0deg);}
+}
